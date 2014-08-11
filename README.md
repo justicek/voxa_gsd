@@ -15,7 +15,7 @@ Send an email to one of the registered addresses, as the default ones are unlike
 That's basically all there is to it! Send one or more email(s) and use the api to consume data. All of the magic is courtesy context.io.
 
 If you want to set up your own server, follow these instructions:
-1. Clone the repository, cd to the directory
-2. Change the 'ec2webhook' variable in data_init.js to the public-facing address you'll be running the service on (around line 35)
-3. *Optional* Add/remove email address in data_init.js (around line 40)
-4. Run 'npm start' or 'node messages.js'
+  * Clone the repository, cd to the directory
+  * 2. Change the 'ec2webhook' variable in data_init.js to the public-facing address you'll be running the service on (around line 35)
+  * (Optional) Add/remove email address in data_init.js (around line 40)
+  * Run 'npm start' or 'node messages.js'
