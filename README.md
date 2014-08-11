@@ -16,6 +16,6 @@ That's basically all there is to it! Send one or more email(s) and use the api t
 
 If you want to set up your own server, follow these instructions:
   * Clone the repository, cd to the directory
-  * 2. Change the 'ec2webhook' variable in data_init.js to the public-facing address you'll be running the service on (around line 35)
+  * Change the 'ec2webhook' variable in data_init.js to the public-facing address you'll be running the service on (around line 35)
   * (Optional) Add/remove email address in data_init.js (around line 40)
   * Run 'npm start' or 'node messages.js'
