@@ -1,0 +1,10 @@
+{
+  "name": "endpoint",
+  "scripts": {
+    "start": "node messages.js"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "contextio": "*"
+  }
+}
